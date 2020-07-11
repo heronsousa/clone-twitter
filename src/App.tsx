@@ -1,11 +1,12 @@
 import React from 'react';
 
-import GlobalStyles from './Styles/global'
+import GlobalStyles from './styles/Global';
+import Layout from './components/Layout';
 
 function App() {
     return (
         <>
-            <h1>VAMOOOOOOOOOO</h1>
+            <Layout />
 
             <GlobalStyles />
         </>
