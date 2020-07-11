@@ -5,6 +5,7 @@ import {
     Banner,
     Avatar,
     ProfileData,
+    EditButton,
     LocationIcon,
     CakeIcon,
     Followage
@@ -18,7 +19,7 @@ const ProfilePage: React.FC = () => {
             </Banner>
 
             <ProfileData>
-                {/* <EditButton outlined>Editar perfil</EditButton> */}
+                <EditButton outlined>Editar perfil</EditButton>
 
                 <h1>Heron Rodrigues</h1>
                 <h2>@heronsousa</h2>
