@@ -17,7 +17,7 @@ export const Header = styled.div`
     z-index: 2;
     position: sticky;
     top: 0;
-    background: var(--primaey);
+    background: var(--primary);
 
     display: flex;
     align-items: center;
